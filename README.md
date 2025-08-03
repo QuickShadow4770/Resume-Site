@@ -1,2 +1,2 @@
 # Resume-Site
-A website displaying my skills, experience, education and about me.
+This website displays my experience, skills and about me.
