@@ -87,3 +87,50 @@ body {
     flex: 1;
 
 }
+
+
+/* Meida Query for mobile Layout */
+@media (max-width: 768px) {
+    .headers {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title div {
+        margin-left: 0;
+        flex: none;
+    }
+
+    .subHeaders {
+        flex-direction: column;
+        padding-left: 0;
+        margin-right: 0;
+        gap: 10px;
+    }
+
+    .subHeaders div {
+        flex: none;
+        width: 100%;
+    }
+
+    .pfp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pfp img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .bioParagraph {
+        flex-direction: column;
+    }
+
+    .bioParagraph div {
+        height: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
