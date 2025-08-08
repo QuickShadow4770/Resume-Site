@@ -13,7 +13,7 @@ body {
 
 .headers div{
 
-    color: hotpink;
+    color: rgb(250, 28, 139);
     height: 80px;
     font-family: 'Roboto', sans-serif;
     
@@ -35,10 +35,11 @@ body {
 .subHeaders {
     display: flex;
     justify-content: space-between;
-    padding-left: 700px;
+    margin-left: 700px;
     flex: 1;
     margin-right: 50px;
-
+    flex-wrap: wrap;
+    white-space: nowrap;
     
 }
 
@@ -46,6 +47,7 @@ body {
 .subHeaders div {
     text-align: right;
     line-height: 80px;
+    padding-left: 5px;
     flex: 1;
     
     
@@ -55,21 +57,75 @@ body {
 
 .pfp {
 
-    justify-content: center;
+    justify-content: right;
     display: flex;
     gap: 10px;
     padding: 20px;
+    margin-right: 100px;
+    flex: 1;
+
 }
 
 .pfp img {
     border: 4px solid rgb(85, 0, 71);
-    background: hotpink;
-    width: 400px;
+    width: 800px;
     height: auto;
+    
+
+}
+
+.landingIntro {
+
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1000px;
+    flex-direction:column;
+    position: relative;
+    bottom: 300px;
+    gap: 20px;
+    flex: 1;
+
+
+}
+
+.landingIntro div {
+    color: rgb(250, 28, 139);
+    text-align: center;
+
+}
+
+.intro {
+
+    font-size: 70px;
 
 }
 
 
+.subIntro{
+    font-size: 20px;
+
+}
+
+
+.hireButton {
+
+    display: flex;
+    background: rgb(250, 28, 139);
+    padding: 20px 100px;
+    justify-content: center;
+    flex: 1;
+    white-space:nowrap;
+    width: 50px;
+
+
+}
+.hireButton div {
+    color: white;
+    font-size: 20px;
+
+}
 
 .bioParagraph {
 
