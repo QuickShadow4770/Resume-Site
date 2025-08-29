@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+    scroll-padding-top: 80px;
+}
+
+
 body {
     background-color: rgb(45, 37, 61);
     margin: 0px;
+    padding-top: 120px;
+}
+
+body a{
+    text-decoration: none;
 }
 
 /*Top border page of site*/
-.headers {
+#headers {
     
     display: flex;
     background: #383838;
@@ -15,30 +25,33 @@ body {
     min-width: 600px;
     gap: 40px;
     flex-wrap: wrap;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     
 }
-
-.headers div{
+#headers div{
     color: #fa1c8b;
     font-family: 'Roboto', sans-serif;
     
     
 }
-
 /* Title name Aron-Dante*/
 #title {
     
 
-    line-height: 80px; /* Brings Arron-Dante Down inside box by 80px */
+    line-height: 80px; /* Brings logo Down inside box by 80px */
     
-    margin-left: 20px; /* Spaces Arron-Dante from Border 20px */
+    margin-left: 20px; /* Spaces logo from Border 20px */
 
-    width: 120px;
+    width: 100px;
     height: auto;
 }   
-
 /* Subheaders container*/
-.subHeaders {
+#subHeaders {
     display: flex;
     gap: 50px; /* gap between subheader boxes*/
     justify-content: center;
@@ -48,16 +61,20 @@ body {
     
     
 }
-
 /* Subheaders text and content*/
-.subHeaders div {
+#subHeaders a {
     line-height: 80px;
     font-size: 20px;
+    color: rgb(250, 28, 139);
 }
 
-/*Landing Page Introduction; Contains Portfolio Pic and Greetings*/
 
-.landingIntro {
+
+
+
+
+/*Landing Page Introduction; Contains Portfolio Pic and Greetings*/
+#landingIntro {
 
     display: flex;
     margin-top: 30px;
@@ -71,11 +88,9 @@ body {
     
 
 }
-
-
 /*Styling for Profile Picture*/
 
-.pfp{ /*Image container*/
+#pfp{ /*Image container*/
     border-radius: 12px;
     max-width: 600px;
     width: 100%;
@@ -91,10 +106,8 @@ body {
     display: block;
 }
 
-
-
 /*styling for Landing Text*/
-.landingText{
+#landingText{
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -104,8 +117,6 @@ body {
     align-items: center;
 
 }
-
-
 #intro {
     font-size: 70px;
     text-align: center;
@@ -115,6 +126,9 @@ body {
     font-size: 20px;
 
 }
+
+
+
 
 /*The Hire Me Button*/
 #hireButton{
@@ -126,11 +140,16 @@ body {
     
 
 }
+#hireButton a {
+    color: white;
+}
+
+
+
 
 
 /*About Page*/
-
-.aboutPage {
+#aboutPage {
 
     display: flex;
     background: #383838;
@@ -145,34 +164,32 @@ body {
     flex-wrap: wrap;
     
 }
-
-
-.bio {
+#bio {
     display: flex;
     flex-direction: column;
     min-width: 400px;
 
 }
-
-.aboutTitle {
+#aboutTitle {
     font-size: 70px;
+    margin-bottom: 0px;
 }
-
-.aboutPar {
+#aboutPar {
     display: flex;
     font-size: 25px;
 }
-
-.aboutPar p {
+#aboutPar p {
     color: white;
     flex: 0 0 600px;
 
 }
-
-#secPfp {
+#aboutPfp {
 
     width: 500px;
     height: auto;
     border-radius: 50px
 }
+
+
+
 
