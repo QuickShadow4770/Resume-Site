@@ -193,3 +193,46 @@ body a{
 
 
 
+/* Skills Page*/
+#skillsPage {
+
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(250, 28, 139);
+    gap: 50px;
+    min-height: 900px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 600px;
+    flex-wrap: wrap;
+
+}
+
+#skillsPage h3 {
+
+    font-size: 70px;
+    
+}
+
+
+#skillsBoxes{
+    display: flex;
+  
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+#skillsBoxes div {
+    flex: 0 0 600px;
+    
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    border-radius: 50px;
+
+
+}
