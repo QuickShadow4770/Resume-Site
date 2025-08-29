@@ -220,7 +220,7 @@ body a{
     display: flex;
   
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-left: 80px;
     margin-right: 80px;
@@ -229,10 +229,9 @@ body a{
 
 #skillsBoxes div {
     flex: 0 0 600px;
-    
     background-color: rgb(231, 231, 231);
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 20px;
 
 
 }
