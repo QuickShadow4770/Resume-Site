@@ -177,6 +177,7 @@ body a{
 #aboutPar {
     display: flex;
     font-size: 25px;
+    
 }
 #aboutPar p {
     color: white;
@@ -235,3 +236,48 @@ body a{
 
 
 }
+
+
+
+#contactPage {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family:'Roboto', sans-serif;
+    min-height: 500px;
+    background: #383838;
+}
+
+#contactPage h1 {
+    color: rgb(250, 28, 139);
+}
+
+#contactPage label {
+    color: white;
+
+}
+
+#contactPage p {
+    color: white;
+}
+
+
+
+#contactInfo {
+
+    display: flex;
+
+    flex-direction: column;
+    gap: 10px;
+
+    
+
+}
+
+#contactInfo input{
+    margin-bottom: 50px;
+}
+
+
