@@ -15,6 +15,10 @@ body a{
     text-decoration: none;
 }
 
+#headers,#subheaders,#landingINtro,#aboutPage,#skillsPage{
+    width:100%;
+}
+
 /*Top border page of site*/
 #headers {
     
